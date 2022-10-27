@@ -10,8 +10,8 @@
 		095A99F3290AA69800105650 /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095A99F2290AA69800105650 /* EmployeeCell.xib */; };
 		095A99F5290AACE900105650 /* RoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095A99F4290AACE900105650 /* RoomCell.xib */; };
 		095A99F7290AB27700105650 /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A99F6290AB27700105650 /* EmployeeDetailViewController.swift */; };
-		095A99F9290AC71E00105650 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A99F8290AC71E00105650 /* ViewExtension.swift */; };
 		095A99FB290ACF4600105650 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A99FA290ACF4600105650 /* ImageViewExtension.swift */; };
+		095A99FD290ADA0900105650 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A99FC290ADA0900105650 /* ViewExtension.swift */; };
 		35BD7B91290A9B8D00A51662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD7B90290A9B8D00A51662 /* AppDelegate.swift */; };
 		35BD7B93290A9B8D00A51662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD7B92290A9B8D00A51662 /* SceneDelegate.swift */; };
 		35BD7B95290A9B8D00A51662 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD7B94290A9B8D00A51662 /* EmployeesViewController.swift */; };
@@ -35,8 +35,8 @@
 		095A99F2290AA69800105650 /* EmployeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
 		095A99F4290AACE900105650 /* RoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCell.xib; sourceTree = "<group>"; };
 		095A99F6290AB27700105650 /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
-		095A99F8290AC71E00105650 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewExtension.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Task 7.04.03 PM/Task/Helpers/ViewExtension.swift"; sourceTree = "<group>"; };
 		095A99FA290ACF4600105650 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		095A99FC290ADA0900105650 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		35BD7B8D290A9B8D00A51662 /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BD7B90290A9B8D00A51662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35BD7B92290A9B8D00A51662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				35BD7BA5290A9C1200A51662 /* HttpRequestHelper.swift */,
-				095A99F8290AC71E00105650 /* ViewExtension.swift */,
+				095A99FC290ADA0900105650 /* ViewExtension.swift */,
 				095A99FA290ACF4600105650 /* ImageViewExtension.swift */,
 			);
 			path = Helpers;
@@ -252,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095A99FD290ADA0900105650 /* ViewExtension.swift in Sources */,
 				35BD7BAC290A9C7100A51662 /* RoomsServices.swift in Sources */,
 				35BD7B95290A9B8D00A51662 /* EmployeesViewController.swift in Sources */,
 				35BD7BB8290A9D5800A51662 /* RoomModel.swift in Sources */,
@@ -259,7 +260,6 @@
 				35BD7B91290A9B8D00A51662 /* AppDelegate.swift in Sources */,
 				35BD7BB2290A9CEC00A51662 /* EmployeesViewModels.swift in Sources */,
 				35BD7BB0290A9CE200A51662 /* EmployeeModel.swift in Sources */,
-				095A99F9290AC71E00105650 /* ViewExtension.swift in Sources */,
 				35BD7BBC290A9E5100A51662 /* RoomCellViewModel.swift in Sources */,
 				35BD7B93290A9B8D00A51662 /* SceneDelegate.swift in Sources */,
 				35BD7BC0290AA26200A51662 /* EmployeeCell.swift in Sources */,
